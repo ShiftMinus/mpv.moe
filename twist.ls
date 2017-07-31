@@ -12,7 +12,7 @@ complete = (line) ->
 request "https://twist.moe" (err,res,body) ->
 	$ = cheerio.load body
 	$(".series-title").each (i,el) -> shows[$(el).text().trim()] = "https://twist.moe#{$(el).attr('href')}"
-	console.log "Got titles!"
+	console.log "Got titles!!"
 rl = readline.createInterface input:process.stdin, output: process.stdout,completer: complete, prompt:"Moe>"
 rl.on "line" (line) -> 
 	for k in Object.keys(shows)
