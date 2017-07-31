@@ -1,0 +1,16 @@
+{
+  "name": "twist.moe",
+  "version": "1.0.0",
+  "description": "Watch twist.moe from mpv",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "prelude-ls": "^1.1.2",
+    "request": "^2.81.0"
+  }
+}
